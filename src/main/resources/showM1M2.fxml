@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="449.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShowM1M2Controller">
+   <children>
+      <AnchorPane prefHeight="90.0" prefWidth="799.0" style="-fx-background-color: F7B555;">
+         <children>
+            <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="20.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@whiteboard.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="106.0" layoutY="30.0" prefHeight="34.0" prefWidth="301.0" text="Dynamic Programming" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="text" layoutX="14.0" layoutY="108.0" prefHeight="326.0" prefWidth="770.0" promptText="ccc">
+         <font>
+            <Font size="24.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>

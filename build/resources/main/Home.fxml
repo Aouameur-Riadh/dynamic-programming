@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="449.0" prefWidth="799.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <AnchorPane prefHeight="90.0" prefWidth="799.0" style="-fx-background-color: F7B555;">
+         <children>
+            <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="20.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@whiteboard.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="106.0" layoutY="30.0" prefHeight="34.0" prefWidth="301.0" text="Dynamic Programming" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="98.0" layoutY="123.0" mnemonicParsing="false" onAction="#onDcm_5Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="236.0" layoutY="123.0" mnemonicParsing="false" onAction="#onInc_5Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_5Da" layoutX="163.0" layoutY="123.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="164.0" layoutY="157.0" prefHeight="26.0" prefWidth="58.0" text="5 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="total" alignment="CENTER" layoutX="203.0" layoutY="264.0" prefHeight="34.0" prefWidth="392.0" />
+      <Button layoutX="203.0" layoutY="313.0" mnemonicParsing="false" onAction="#onShowSum" prefHeight="44.0" prefWidth="392.0" style="-fx-background-color: F7B555;" text="RESULT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="305.0" layoutY="123.0" mnemonicParsing="false" onAction="#onDcm_10Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="443.0" layoutY="123.0" mnemonicParsing="false" onAction="#onInc_10Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_10Da" layoutX="370.0" layoutY="123.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="370.0" layoutY="157.0" prefHeight="26.0" prefWidth="58.0" text="10 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="512.0" layoutY="123.0" mnemonicParsing="false" onAction="#onDcm_20Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="650.0" layoutY="123.0" mnemonicParsing="false" onAction="#onInc_20Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_20Da" layoutX="577.0" layoutY="123.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="577.0" layoutY="157.0" prefHeight="26.0" prefWidth="58.0" text="20 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="98.0" layoutY="197.0" mnemonicParsing="false" onAction="#onDcm_50Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="236.0" layoutY="197.0" mnemonicParsing="false" onAction="#onInc_50Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_50Da" layoutX="163.0" layoutY="197.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="163.0" layoutY="231.0" prefHeight="26.0" prefWidth="58.0" text="50 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="305.0" layoutY="197.0" mnemonicParsing="false" onAction="#onDcm_100Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="443.0" layoutY="197.0" mnemonicParsing="false" onAction="#onInc_100Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: F7B555;">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_100Da" layoutX="370.0" layoutY="197.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="370.0" layoutY="231.0" prefHeight="26.0" prefWidth="58.0" text="100 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="512.0" layoutY="197.0" mnemonicParsing="false" onAction="#onDcm_200Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: F7B555;">
+               <image>
+                  <Image url="@minus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="650.0" layoutY="197.0" mnemonicParsing="false" onAction="#onInc_200Da" prefHeight="34.0" prefWidth="50.0" style="-fx-background-color: #fff;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tf_200Da" layoutX="577.0" layoutY="197.0" prefHeight="34.0" prefWidth="58.0" />
+      <Label alignment="CENTER" layoutX="577.0" layoutY="231.0" prefHeight="26.0" prefWidth="58.0" text="200 DA">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="292.0" layoutY="371.0" mnemonicParsing="false" onAction="#onFindM_1_M_2" prefHeight="44.0" prefWidth="214.0" style="-fx-background-color: F7B555;" text="GET M1 &amp;&amp; M2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
